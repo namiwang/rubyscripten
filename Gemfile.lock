@@ -1,0 +1,25 @@
+GIT
+  remote: git://github.com/chriswailes/RCGTK.git
+  revision: f14f7b3713af1f280d9c05b5051219b2dba528cc
+  branch: llvm-3.6
+  specs:
+    rcgtk (3.6.0)
+      ffi (~> 1.0, >= 1.0.0)
+      filigree (~> 0.3, >= 0.3.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (9.0.5)
+    ffi (1.9.14)
+    filigree (0.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  rcgtk!
+
+BUNDLED WITH
+   1.12.5

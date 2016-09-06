@@ -1,0 +1,5 @@
+have to do LD_LIBRARY_PATH=$(llvm-config --libdir) due to some unknown weird profile/term/env issue.
+
+LD_LIBRARY_PATH=$(llvm-config --libdir) bundle exec irb
+
+ENV.store 'LD_LIBRARY_PATH', '/usr/local/Cellar/llvm/3.6.2/lib'
